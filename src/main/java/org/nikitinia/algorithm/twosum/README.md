@@ -7,7 +7,7 @@
   and you may not use the same element twice;
 * You can return the answer in any order;
 
-### First variant
+### First variant -> SolutionWithArray.java
 #### Solution assumes:
 1. We use only data structure -> array;
 
@@ -17,10 +17,10 @@
 3. Iteration by rest part of array [ra];
 4. Calculate the sum of [fe] and first element of [ra] - [fera];
 5. If [fe] + [fera] = target -> end;
-6. if [fe] + [fera] != target -> [6.];
+6. if [fe] + [fera] != target -> [7.];
 7. Calculate the sum of [fe] and next element of [ra] - [nera];
 8. If [fe] + [nera] = target -> end;
-9. if [fe] + [nera] != target -> [9.];
+9. if [fe] + [nera] != target -> [10.];
 10. Repeat [7-8] when [ra] do not end;
 11. If when we process [9.] do not get end,
     repeat [2.], but change [fe], by next element [sa] - [nesa];
@@ -30,7 +30,7 @@
 #### Realisation:
 * Walking through a loop that is in a loop;
 
-### Second variant
+### Second variant -> SolutionWithArrayAndHashMap.java
 #### Solution assumes:
 1. We use two type structure - array and map;
 
