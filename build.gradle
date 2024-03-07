@@ -11,6 +11,8 @@ repositories {
 
 dependencies {
 
+    implementation 'org.perf4j:perf4j:0.9.16'
+
     compileOnly 'org.apache.commons:commons-lang3:3.9'
 
     compileOnly 'org.projectlombok:lombok:1.18.24'
